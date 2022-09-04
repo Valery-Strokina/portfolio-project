@@ -42,10 +42,6 @@ p {
   line-height: 30px;
 }
 
-.logo {
-  max-height: 40px;
-}
-
 nav {
   padding: 20px 0;
 }
@@ -123,6 +119,25 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+.subheading {
+  color: var(--secondary-text-color);
+  font-size: 32px;
+  font-family: car(--default-font-family);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-image {
+  padding: 20px 80px 20px 80px;
+  margin: 30px 0px 0px 15px;
+  border-radius: 20px;
+  transition: transform.55s;
+}
+
+.card-image:hover {
+  transform: scale(1.1);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -192,7 +207,7 @@ footer .social-links a:hover {
 }
 
 .project-descriotion {
-  padding: 120px 60px;
+  padding: 60px 95px;
 }
 
 @media (max-width: 900px) {
