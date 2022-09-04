@@ -147,7 +147,7 @@ footer .social-links a:hover {
 .hero p {
   font-size: 36px;
   font-weight: bold;
-  margin: 0;
+  margin: 3px;
   color: var(--secondary-text-color);
 }
 
