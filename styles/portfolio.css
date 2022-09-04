@@ -2,8 +2,8 @@
   --branding-color: #009688;
   --secondary-color: #b2dfdb;
   --light-color: #f9f7fe;
-  --primary-text-color: black;
-  --secondary-text-color: #272142;
+  --primary-text-color: #212121;
+  --secondary-text-color: #3f3f3f;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -105,7 +105,7 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  color: var(--branding-color);
+  color: var(--secondary-text-color);
   margin: 0 20px;
   background: var(--secondary-color);
   padding: 10px 14px;
@@ -115,7 +115,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: white;
+  color: whitesmoke;
   background: var(--branding-color);
 }
 
@@ -195,6 +195,7 @@ footer .social-links a:hover {
   font-size: 18px;
   line-height: 27px;
   padding: 18px 46px;
+  margin: 15px -30px;
 }
 
 .btn-branding-outline {
