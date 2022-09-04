@@ -35,7 +35,7 @@
 
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
-  <body>
+  <body class="contact-page">
     <div class="container">
       <nav class="d-flex justify-content-between">
         <p>Valeriia Strokina</p>
@@ -44,7 +44,7 @@
             <a href="/" title="homepage">Home</a>
           </li>
           <li><a href="/about.html" title="about Valeriia">About</a></li>
-          <li><a href="/work.html" title="Valeriia's work">Work</a></li>
+          <li><a href="/index.html#work" title="Valeriia's work">Work</a></li>
           <li class="active">
             <a href="/contcat.html" title="contact Valeriia">Contact</a>
           </li>
@@ -52,37 +52,50 @@
       </nav>
     </div>
 
-    <div class="content-container container">
+    <div class="content-container container mb-5">
       <div class="content">
-        <h1 class="mb-5">Let's get in touch!</h1>
+        <h1 class="mb-5 text-center contact-content">Let's get in touch!</h1>
+        <div class="contact-box mt-5 mb-5">
+          <div class="row">
+            <div class="col-6 text-center mt-5">
+              <h3>Email</h3>
+              <p>
+                <a
+                  href="mailto:ms.nanieva@gmail.com"
+                  class="contact-link"
+                  alt="email link"
+                  >ms.nayeva@gmail.com</a
+                >
+              </p>
+              <h3>LinkedIn</h3>
+              <p>
+                <a
+                  href="https://www.linkedin.com/in/valeriia-strokina"
+                  class="contact-link"
+                  alt="linkedin profile"
+                  target="blank"
+                  >@valeriia-strokina</a
+                >
+              </p>
+            </div>
+            <div class="col-6">
+              <h3 class="text-center">WhatsApp</h3>
+              <p class="text-center">
+                <img
+                  src="images/whatsapp.jpg"
+                  class="img-fluid"
+                  alt="QR code to chat in WhatsApp with Valeriia Strokina"
+                />
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <h3>Email</h3>
-      <p>
-        <a href="mailto:ms.nanieva@gmail.com" alt="email link"
-          >ms.nayeva@gmail.com</a
-        >
-      </p>
-      <h3>LinkedIn</h3>
-      <p>
-        <a
-          href="https://www.linkedin.com/in/valeriia-strokina"
-          alt="linkedin profile"
-          target="blank"
-          >@valeriia-strokina</a
-        >
-      </p>
-      <h3>WhatsApp</h3>
-      <p>
-        <img
-          src="images/whatsapp.jpg"
-          class="img-fluid"
-          alt="QR code to chat in WhatsApp with Valeriia Strokina"
-        />
-      </p>
     </div>
+
     <footer class="container">
       <div
-        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex contact-me"
       >
         <div>
           <h3>Work Inquiry</h3>
