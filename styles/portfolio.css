@@ -183,10 +183,6 @@ footer .social-links a:hover {
   font-size: 14px;
 }
 
-.content {
-  margin: 30px;
-}
-
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -231,6 +227,9 @@ footer .social-links a:hover {
   .btn-branding {
     padding: 13px 30px;
   }
+  .content-container {
+    text-align: center;
+  }
 }
 
 .personal {
@@ -255,10 +254,13 @@ footer .social-links a:hover {
 }
 
 .contact-page {
-  background: var(--secondary-color);
+  background: #b2dfdb;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .contact-link {
+  font-size: 18px;
   text-decoration: none;
   color: var(--branding-color);
 }
@@ -269,8 +271,4 @@ footer .social-links a:hover {
 
 .contact-content {
   color: var(--primary-text-color);
-}
-
-footer .contact-me {
-  background: var(--branding-color);
 }
