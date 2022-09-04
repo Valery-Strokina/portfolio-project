@@ -221,6 +221,13 @@ footer .social-links a:hover {
   .hero {
     padding: 80px 20px;
   }
+  .content h1 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  p {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 1000px) {
