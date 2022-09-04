@@ -1,6 +1,9 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #009688;
+  --secondary-color: #b2dfdb;
+  --light-color: #f9f7fe;
+  --primary-text-color: black;
+  --secondary-text-color: #272142;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -15,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: var(--primary-text-color);
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -47,6 +50,12 @@ nav {
   padding: 20px 0;
 }
 
+nav p {
+  margin-top: 6px;
+  font-weight: bolder;
+  color: var(--secondary-text-color);
+  font-size: 16px;
+}
 nav ul {
   padding: 0;
   margin: 0;
@@ -65,7 +74,7 @@ nav li.active a {
 
 nav a {
   text-decoration: none;
-  color: #272142b2;
+  color: var(--secondary-text-color);
   transition: all 100ms ease-in-out;
   font-size: 14px;
 }
@@ -90,7 +99,7 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  color: black;
+  color: var(--primary-text-color);
   font-size: 24px;
   text-align: center;
 }
@@ -124,7 +133,7 @@ footer .social-links a:hover {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: var(--secondary-text-color);
 }
 
 .hero h2 {
