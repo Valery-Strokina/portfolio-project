@@ -228,6 +228,12 @@ footer .social-links a:hover {
   p {
     font-size: 14px;
   }
+  nav p {
+    font-size: 10px;
+  }
+  nav a {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 1000px) {
